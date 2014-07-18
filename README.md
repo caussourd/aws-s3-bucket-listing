@@ -1,7 +1,7 @@
 aws-s3-bucket-listing
 =====================
 
-List files in a S3 bucket from a web browser.
+List files in a S3 bucket in a web browser.
 
 INSTALLATION & BUCKET CONFIGURATION
 -----------------------------------
@@ -10,7 +10,7 @@ Upload the file [list.html](https://raw.githubusercontent.com/caussourd/aws-s3-b
 
 ### In the bucket Permissions
 - Grant Everyone to list
-- Add this bucket policy, replacing <your_bucket_name>:
+- Add this bucket policy, replacing \<your_bucket_name>\:
 ```
 {
     "Version": "2008-10-17",
@@ -46,7 +46,7 @@ Upload the file [list.html](https://raw.githubusercontent.com/caussourd/aws-s3-b
 Display the list at this address: 
 **http://\<your_bucket_name\>.\<your_endpoint\>/list.html**
 
-To know what is your endpoint: http://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region. Example for Europe (Ireland): http<nolink>://bucketname.s3-eu-west-1.amazonaws.com/list.html
+To know what is your endpoint: http://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region. Example for Europe (Ireland): `http://bucketname.s3-eu-west-1.amazonaws.com/list.html`
 
 **Note**: It also works with HTTPS. It won't work with a S3 website endpoint (the hostname must point to the request endpoint)
 
