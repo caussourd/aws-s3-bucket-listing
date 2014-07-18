@@ -1,7 +1,7 @@
 aws-s3-bucket-listing
 =====================
 
-List files in a S3 bucket in a web browser.
+List files in a S3 bucket in a web browser with a link to each file (cf. [example](http://regexp.s3.amazonaws.com/list.html)).
 
 INSTALLATION & BUCKET CONFIGURATION
 -----------------------------------
